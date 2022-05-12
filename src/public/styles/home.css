@@ -304,7 +304,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     padding: 8% 6%;
     gap: 60px;
-    line-height: 1.5em;
+    line-height: 1.9em;
     margin-bottom: 50px;
 }
 .circle-container{
@@ -595,6 +595,9 @@ body::-webkit-scrollbar-thumb{
         min-height: 70vh;
         max-width: 50%;
         min-width: 350px;
+    }
+    .about-us-container p,.about-history p{
+        line-height: 1.6em;
     }
     .phrase-bg{
         height: 60%;
