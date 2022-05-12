@@ -1,0 +1,127 @@
+    {{!-- CSS STYLES --}}
+<link rel="stylesheet" href="styles/home.css">
+
+<body>   
+    <nav class="nav-container">
+        <div class="logo">  <a href="#"><img src="img/TRSlogo.svg" alt="Todo Re-Suelto"></a></div>
+        <div class="logo-item-gap"></div>
+        <ul class="nav-list">
+            <li class="nav-item" ><a href="#"class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="productos"class="nav-link">Productos</a></li>
+            <li class="nav-item"><a href="#conocenos"class="nav-link">Conocenos</a></li>
+            <li class="nav-item"><a href="#encontranos"class="nav-link">Donde encontrarnos</a></li>
+        </ul>
+        <div class="menu-btn-box inactive">
+            <div class="top-line">
+                <span class="btn-line" id="top-left"></span>
+                <span class="btn-line" id="top-middle"></span>
+                <span class="btn-line" id="top-right"></span>
+            </div>
+            <div class="btn-line middle-line" id="middle"></div>
+            <div class="bottom-line">
+                <span class="btn-line" id="bottom-left"></span>
+                <span class="btn-line" id="bottom-middle"></span>
+                <span class="btn-line" id="bottom-right"></span>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">Todo Re-Suelto</h1>
+                <h2 class="hero-subtitle">Almacen Natural</h2>
+                <div class="button-container">
+                    <a href="productos" class="button product-link" id="products-button">Productos <img src="img/ir-a-enlace.svg"></a>
+                    <a href="#conocenos" class="button" id="about-button">Conocenos</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="phrase-bg">
+                    <p class="phrase">“No encuentres clientes para tus productos, encuentra productos para tus clientes”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="conocenos">
+        <h2 class="big-bg-text">Productos Naturales</h2>
+        <h3 class="medium-bg-text">La mejor<br>Calidad</h3>
+        <div class="circle-container">
+            <div class="about-circle">
+                <img class="beans-img gsap-beans" alt="porotos" src="img/porotos.svg">
+                <img class="beans-img gsap-beans" alt="porotos" src="img/porotos.svg">
+                <img src="img/trigo.svg" alt="trigo" class="wheat-img">
+            </div>
+        </div>
+        <div class="about-us-container">
+            <img src="img/porotosBG.png" class="beans-bg beans-bg-top">
+            <h4 class="title gsap-about-us-top">¿Quienes Somos?</h4>
+            <p class="about-us-text gsap-about-us-top">
+                    Todo Re-Suelto es un comercio que se inició como necesidad de la venta fraccionada de productos,con los años nuestros
+                    clientes nos llevaron por el camino de los productos sanos, por lo cual hoy en día somos un almacén natural continuando con la venta fraccionada.
+                    <br>En nuestro comercio podrán encontrar variedades en frutas secas, legumbres, cereales, harinas, semillas, condimentos, herboristería, dietética y repostería.
+                    <br>Esperamos su visita por nuestro local, será bienvenido y atendido de la mejor manera.</p>
+        </div>
+        <div class="about-history">
+            <img src="img/porotosBG.png" class="beans-bg beans-bg-bottom">
+            <h4 class="title gsap-about-us-history">Nuestra Historia</h4>
+            <p class="about-us-text gsap-about-us-history">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, pariatur ipsam! Assumenda exercitationem vero est illum explicabo unde ipsa, quas minus quis alias culpa consequatur quae? Animi fuga voluptate voluptas!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum aperiam. Maiores delectus neque deserunt. Error corrupti officia ipsam voluptates eaque rem ipsum. Accusamus, eius nulla voluptatem incidunt quidem officiis.
+                <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, pariatur ipsam! Assumenda exercitationem vero est illum explicabo unde ipsa, quas minus quis alias culpa consequatur quae? Animi fuga voluptate voluptas!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum aperiam. Maiores delectus neque deserunt. Error corrupti officia ipsam voluptates eaque rem ipsum. Accusamus, eius nulla voluptatem incidunt quidem officiis.</p>
+            <a href="productos" class="button product-link gsap-about-us-history" id="products-button2">Conocé nuestros Productos <img src="img/ir-a-enlace.svg"></a>
+        </div>
+        <div class="photos-section">
+            <div class="slider gsap-about-us-history">
+                <div class="slides">
+                    <input type="radio" name="photo-btn" id="photo1">
+                    <input type="radio" name="photo-btn" id="photo2">
+                    <div class="slide first">
+                        <img src="img/inside.jpg" alt="Almacen Natural">
+                    </div>
+                    <div class="slide">
+                        <img src="img/inside2.jpg" alt="">
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="photo1" class="manual-btn" id="photo-btn1"></label>
+                        <label for="photo2" class="manual-btn" id="photo-btn2"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="encontranos">
+        <div class="contact-container">
+            <h4 class="title">Donde encontrarnos</h4>
+            <div class="contact-info">
+                <p class="contact-text">Ante cualquier consulta,no dudes en escribirnos:</p>
+                <p class="info-detail"><a href="https://wa.me/543489545315" class="info-link" target="_blank">
+                    <img class="contact-whatsapp-logo" src="img/whatsapp-logo.svg" alt="whatsapp-logo"> +54 3489 545315</a></p>
+                <p class="contact-text">Veni a visitarnos</p>
+                <p class="info-detail"><a href="https://www.google.com/maps/place/Todo+Re-suelto/@-34.166134,-58.9619217,17z/data=!3m1!4b1!4m5!3m4!1s0x95bb72314b797233:0xf4a2cf020b36f547!8m2!3d-34.1661379!4d-58.9597334" target="_blank" class="info-link">
+                    <img class="contact-google-maps-logo" src="img/maps-logo.svg" alt="google-maps-logo"> Estrada 804, Campana
+                </a></p>
+            </div>
+            <p class="contact-text reminder-msg">No olvides que podés hacer tus pedidos via Whatsapp
+                y luego pasar a retirarlos al local
+            </p>
+            <p class="title">TE ESPERAMOS!</p>
+        </div>
+    </section>
+    <div class="map">
+        <img src="img/porotosBG.png" class="beans-map beans-bg-map-left">
+        <img src="img/porotosBG.png" class="beans-map beans-bg-map-right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.6141843172477!2d-58.96069859788597!3d-34.166078498203625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb72314b797233%3A0xf4a2cf020b36f547!2sTodo%20Re-suelto!5e0!3m2!1ses!2sar!4v1650693488832!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer">
+        <p>© Todos los derechos reservados.</p>
+        <p>Desarrollo Web realizado por Luciano Torrano </p>
+    </footer>
+    <!-- SLIDER -->
+    <script src="scripts/slider.js"></script>
+    <!-- RESPONSIVE BTN -->
+    <script src="scripts/responsive-btn.js"></script>
+    <!-- GSAP CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- GSAP SCROLL TRIGGER-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="scripts/gsap-main-page.js"></script>
+
+</body>

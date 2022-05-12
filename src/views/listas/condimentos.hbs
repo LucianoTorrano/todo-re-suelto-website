@@ -1,0 +1,19 @@
+{{!-- CSS STYLE --}}
+<link rel="stylesheet" href="/styles/list.css">
+
+<body>
+    <a href="/productos" class="back-product-page-button"><img src="/img/arrow2.svg"> Volver a productos</a>
+    <section class="web-container">
+        <h1 class="title">Condimentos</h1>
+        <div class="lists-container" id="listsContainer">
+                <h3 class="product-name" id="cargando">Cargando la lista de productos...</h3>
+        </div>
+        <p class="msg-text">Si encontraste lo que estabas buscando, contactanos via Whatsapp o veni a visitarnos!</p>
+        <div class="contact-info">
+            <a target="_blank" href="https://www.google.com/maps/place/Todo+Re-suelto/@-34.166134,-58.9619217,17z/data=!3m1!4b1!4m5!3m4!1s0x95bb72314b797233:0xf4a2cf020b36f547!8m2!3d-34.1661379!4d-58.9597334" class="map-direction contact-link">Dirección: Estrada 804, Campana</a>
+            <a target="_blank" href="https://wa.me/543489545315" class="whatsapp-direction contact-link">Whatsapp: +54 3489 545315</a>
+        </div>
+    </section>
+    <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+    <script src="/scripts/list-fetch/condimentos.js" type="module"></script>
+</body>

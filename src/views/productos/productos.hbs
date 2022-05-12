@@ -1,0 +1,71 @@
+{{!-- CSS STYLES --}}
+<link rel="stylesheet" href="styles/productos.css">
+
+<body>
+    <section class="product-container">
+        <div class="top-side">
+            <div class="product-info-container">
+                <a href="/" class="back-home-button"><img src="img/arrow.svg"> Volver a inicio</a>
+                <div class="text-container">
+                    <h3 class="title">Sobre nuestros productos</h3>
+                    <p class="product-text">
+                          Clickea en la listas para obtener en detalles qué productos tenemos para ofrecerte.<br>
+                          Si lo que estas buscando no lo encontraste recordá que podes hablarnos vía Whatsapp y 
+                          haremos lo posible para conseguirlo...
+                    </p>
+                </div>
+            </div>
+            <ul class="product-list-top gsap-list">
+                <li class="list-item" id="condimentos">
+                    <h2 class="item-title">Condimentos</h2>
+                    <a href="productos/condimentos" class="list-button">Lista de Productos</a>
+                </li>
+                <li class="list-item"id="harinas">
+                    <h2 class="item-title">Harinas y Legumbres</h2>
+                    <a href="productos/harinas-y-legumbres" class="list-button">Lista de Productos</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="product-list gsap-list">
+            <li class="list-item"id="frutos-secos">
+                <h2 class="item-title">Frutos Secos</h2>
+                <a href="productos/frutos-secos" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="reposteria">
+                <h2 class="item-title">Repostería</h2>
+                <a href="productos/reposteria" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="celiacos">
+                <h2 class="item-title">Productos para Celíacos y Veganos</h2>
+                <a href="productos/celiacos-y-veganos" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="dieteticos">
+                <h2 class="item-title">Productos Dietéticos</h2>
+                <a href="productos/productos-dieteticos" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="desayunos">
+                <h2 class="item-title">Desayunos, Meriendas o Colaciones</h2>
+                <a href="productos/desayunos" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="hierbas">
+                <h2 class="item-title">Hierbas Medicinales</h2>
+                <a href="productos/hierbas-medicinales" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="gourmet">
+                <h2 class="item-title">Productos Gourmet</h2>
+                <a href="productos/gourmet" class="list-button">Lista de Productos</a>
+            </li>
+            <li class="list-item" id="semillas">
+                <h2 class="item-title">Semillas</h2>
+                <a href="productos/semillas" class="list-button">Lista de Productos</a>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <p>© Todos los derechos reservados.</p>
+        <p>Desarrollo Web realizado por Luciano Torrano </p>
+    </footer>
+    <!-- GSAP CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="scripts/gsap-products-page.js"></script>
+</body>
