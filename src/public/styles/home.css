@@ -387,10 +387,14 @@ body::-webkit-scrollbar-thumb{
 #photo2:checked ~ .first{
     margin-left: -20%;
 }
-#photo1:checked ~ .navigation-manual #photo-btn1{
-    background-color: var(--secondary-color);
+#photo3:checked ~ .first{
+    margin-left: -40%;
 }
-#photo2:checked ~ .navigation-manual #photo-btn2{
+#photo4:checked ~ .first{
+    margin-left: -60%;
+}
+#photo1:checked ~ .navigation-manual #photo-btn1,#photo2:checked ~ .navigation-manual #photo-btn2,
+#photo3:checked ~ .navigation-manual #photo-btn3,#photo4:checked ~ .navigation-manual #photo-btn4{
     background-color: var(--secondary-color);
 }
 
