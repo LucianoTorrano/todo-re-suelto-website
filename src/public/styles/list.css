@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--bg-color);
-
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -97,6 +97,11 @@ body::-webkit-scrollbar-thumb{
     text-align: center;
     color: var(--title-font-color);
 }
+.button-options-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+}
 .contact-info{
     display: flex;
     width: 80%;
@@ -155,5 +160,10 @@ body::-webkit-scrollbar-thumb{
     }
     .back-product-page-button{
         font-size: 1.5em;
+    }
+    .button-options-container{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
     }
 }
